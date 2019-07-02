@@ -3,7 +3,7 @@ webpack教程从基础到高级开发
 
 # 一、视频课程简介
     1. webpack 环境搭建
-    * [Part 1 - webpack 环境搭建](https://github.com/tinerguo/webpack-demo/tree/master/part1)
+* [Part 1 - webpack 环境搭建](https://github.com/tinerguo/webpack-demo/tree/master/part1)
 
 
 ## Webpack 简易教程 🏫
