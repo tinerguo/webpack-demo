@@ -26,4 +26,14 @@ npm run build //输出 dist/bundle.webpack.js
 ```
 
 ## bundle代码分析
-    上面通过两种方式
+上面通过两种方式分别输出：bundle.js 和 bundle.webpack.js 两种方式打包的代码没有什么区别，webpack配置文件打包后的文件多出一个：
+```javascript
+//84行
+return __webpack_require__(__webpack_require__.s = 0);
+
+//111行
+0:(function(module, exports, __webpack_require__) {
+    eval("module.exports = __webpack_require__(/*! ./entry.js */\"./entry.js\");\n\n\n//# sourceURL=webpack:///multi_./entry.js?");
+})
+
+```
