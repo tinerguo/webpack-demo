@@ -90,21 +90,11 @@
 /*!******************!*\
   !*** ./entry.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./first */ \"./first.js\")\n\n\n//# sourceURL=webpack:///./entry.js?");
-
-/***/ }),
-
-/***/ "./first.js":
-/*!******************!*\
-  !*** ./first.js ***!
-  \******************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("var h2= document.createElement(\"h2\")\nh2.innerHTML=\"不是吧，那么快第二个打包程序啦！\";\ndocument.body.appendChild(h2);\n\n\n//# sourceURL=webpack:///./first.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _entry_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./entry.js */ \"./entry.js\");\n// require('./first')\n\n\nObject(_entry_js__WEBPACK_IMPORTED_MODULE_0__[\"show\"])();\n\n\n//# sourceURL=webpack:///./entry.js?");
 
 /***/ }),
 
