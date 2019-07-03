@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+      "start": "webpack entry.js --output-filename=./bundle.js --mode=development",
     "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --content-base test/ --inline --hot --compress --history-api-fallback --port 8081 --config webpack.config.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+      "webpack": "^4.16.4",
+      "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "pleasejs": "^0.4.2"
+  }
 }
