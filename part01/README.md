@@ -3,6 +3,6 @@
     2. 手动创建webpack.config.js
 
 ```javascript
-    //执行
-    webpack entry.js --output-filename=./bundle.js --mode=development
+//执行
+webpack entry.js --output-filename=./bundle.js --mode=development
 ```
