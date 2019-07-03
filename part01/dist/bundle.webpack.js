@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./entry.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -105,6 +105,17 @@ eval("__webpack_require__(/*! ./first */ \"./first.js\")\n\n\n//# sourceURL=webp
 /***/ (function(module, exports) {
 
 eval("var h2= document.createElement(\"h2\")\nh2.innerHTML=\"不是吧，那么快第二个打包程序啦！\";\ndocument.body.appendChild(h2);\n\n\n//# sourceURL=webpack:///./first.js?");
+
+/***/ }),
+
+/***/ 0:
+/*!************************!*\
+  !*** multi ./entry.js ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__(/*! ./entry.js */\"./entry.js\");\n\n\n//# sourceURL=webpack:///multi_./entry.js?");
 
 /***/ })
 
