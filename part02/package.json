@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack entry.js --output-filename=./bundle.js --mode=development",
     "build": "webpack --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --content-base test/ --inline --hot --compress --history-api-fallback --port 8081 --config webpack.config.js"
   },
   "devDependencies": {
     "webpack": "^4.16.4",
