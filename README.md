@@ -6,3 +6,7 @@ webpack教程从基础到高级开发
 webpack 简易编辑后源码解析
 * [Part 02 - webpack 模块化解析](https://github.com/tinerguo/webpack-demo/tree/master/part02)
 测试webpack关于es6模块和commonjs模块还有动态模块化的解析原理
+* [Part 03 - babel](https://github.com/tinerguo/webpack-demo/tree/master/part03)
+@babel 使用
+* [Part 03 - webpack babel](https://github.com/tinerguo/webpack-demo/tree/master/part03)
+webpack babel 使用
