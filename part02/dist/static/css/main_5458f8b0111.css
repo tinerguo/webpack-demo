@@ -1,0 +1,13 @@
+body{
+    background: red;
+}
+
+div{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-transform: all 1s;
+         -ms-transform: all 1s;
+             transform: all 1s;
+}
